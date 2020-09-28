@@ -1,0 +1,21 @@
+J:\CSC-153\Semester Project\TextAdventure\TextAdventureLib\bin\Debug\TextAdventureLib.dll
+J:\CSC-153\Semester Project\TextAdventure\TextAdventureLib\bin\Debug\TextAdventureLib.pdb
+J:\CSC-153\Semester Project\TextAdventure\TextAdventureLib\obj\Debug\TextAdventureLib.csprojAssemblyReference.cache
+J:\CSC-153\Semester Project\TextAdventure\TextAdventureLib\obj\Debug\TextAdventureLib.dll
+J:\CSC-153\Semester Project\TextAdventure\TextAdventureLib\obj\Debug\TextAdventureLib.pdb
+E:\CSC-153\Semester Project\TextAdventure\TextAdventureLib\bin\Debug\TextAdventureLib.dll
+E:\CSC-153\Semester Project\TextAdventure\TextAdventureLib\bin\Debug\TextAdventureLib.pdb
+E:\CSC-153\Semester Project\TextAdventure\TextAdventureLib\obj\Debug\TextAdventureLib.csprojAssemblyReference.cache
+E:\CSC-153\Semester Project\TextAdventure\TextAdventureLib\obj\Debug\TextAdventureLib.dll
+E:\CSC-153\Semester Project\TextAdventure\TextAdventureLib\obj\Debug\TextAdventureLib.pdb
+C:\Users\Fraleym7700\Downloads\TextAdventure-BDBranch\TextAdventure-BDBranch\TextAdventure\TextAdventureLib\obj\Debug\TextAdventureLib.csprojAssemblyReference.cache
+C:\Users\Fraleym7700\Downloads\TextAdventure-BDBranch\TextAdventure-BDBranch\TextAdventure\TextAdventureLib\obj\Debug\TextAdventureLib.dll
+C:\Users\Fraleym7700\Downloads\TextAdventure-BDBranch\TextAdventure-BDBranch\TextAdventure\TextAdventureLib\obj\Debug\TextAdventureLib.pdb
+C:\Users\Fraleym7700\Downloads\TextAdventure-BDBranch\TextAdventure-BDBranch\TextAdventure\TextAdventureLib\bin\Debug\TextAdventureLib.dll
+C:\Users\Fraleym7700\Downloads\TextAdventure-BDBranch\TextAdventure-BDBranch\TextAdventure\TextAdventureLib\bin\Debug\TextAdventureLib.pdb
+C:\Users\Brandon\Desktop\TextAdventure\TextAdventure\TextAdventure\TextAdventureLib\bin\Debug\TextAdventureLib.dll
+C:\Users\Brandon\Desktop\TextAdventure\TextAdventure\TextAdventure\TextAdventureLib\bin\Debug\TextAdventureLib.pdb
+C:\Users\Brandon\Desktop\TextAdventure\TextAdventure\TextAdventure\TextAdventureLib\obj\Debug\TextAdventureLib.csprojAssemblyReference.cache
+C:\Users\Brandon\Desktop\TextAdventure\TextAdventure\TextAdventure\TextAdventureLib\obj\Debug\TextAdventureLib.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Desktop\TextAdventure\TextAdventure\TextAdventure\TextAdventureLib\obj\Debug\TextAdventureLib.dll
+C:\Users\Brandon\Desktop\TextAdventure\TextAdventure\TextAdventure\TextAdventureLib\obj\Debug\TextAdventureLib.pdb

@@ -1,0 +1,44 @@
+J:\CSC-153\Semester Project\TextAdventure\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+J:\CSC-153\Semester Project\TextAdventure\ConsoleUI\bin\Debug\ConsoleUI.exe
+J:\CSC-153\Semester Project\TextAdventure\ConsoleUI\bin\Debug\ConsoleUI.pdb
+J:\CSC-153\Semester Project\TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
+J:\CSC-153\Semester Project\TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.exe
+J:\CSC-153\Semester Project\TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.pdb
+F:\CSC-153\Semester Project\TextAdventure\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+F:\CSC-153\Semester Project\TextAdventure\ConsoleUI\bin\Debug\ConsoleUI.exe
+F:\CSC-153\Semester Project\TextAdventure\ConsoleUI\bin\Debug\ConsoleUI.pdb
+F:\CSC-153\Semester Project\TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
+F:\CSC-153\Semester Project\TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+F:\CSC-153\Semester Project\TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.exe
+F:\CSC-153\Semester Project\TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.pdb
+E:\CSC-153\Semester Project\TextAdventure\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+E:\CSC-153\Semester Project\TextAdventure\ConsoleUI\bin\Debug\ConsoleUI.exe
+E:\CSC-153\Semester Project\TextAdventure\ConsoleUI\bin\Debug\ConsoleUI.pdb
+E:\CSC-153\Semester Project\TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
+E:\CSC-153\Semester Project\TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.exe
+E:\CSC-153\Semester Project\TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.pdb
+J:\CSC-153\Semester Project\TextAdventure\ConsoleUI\bin\Debug\TextAdventureLib.dll
+J:\CSC-153\Semester Project\TextAdventure\ConsoleUI\bin\Debug\TextAdventureLib.pdb
+J:\CSC-153\Semester Project\TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.csproj.CopyComplete
+E:\CSC-153\Semester Project\TextAdventure\ConsoleUI\bin\Debug\TextAdventureLib.dll
+E:\CSC-153\Semester Project\TextAdventure\ConsoleUI\bin\Debug\TextAdventureLib.pdb
+E:\CSC-153\Semester Project\TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.csproj.CopyComplete
+C:\Users\Fraleym7700\Downloads\TextAdventure-BDBranch\TextAdventure-BDBranch\TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
+C:\Users\Fraleym7700\Downloads\TextAdventure-BDBranch\TextAdventure-BDBranch\TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.exe
+C:\Users\Fraleym7700\Downloads\TextAdventure-BDBranch\TextAdventure-BDBranch\TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.pdb
+C:\Users\Fraleym7700\Downloads\TextAdventure-BDBranch\TextAdventure-BDBranch\TextAdventure\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+C:\Users\Fraleym7700\Downloads\TextAdventure-BDBranch\TextAdventure-BDBranch\TextAdventure\ConsoleUI\bin\Debug\ConsoleUI.exe
+C:\Users\Fraleym7700\Downloads\TextAdventure-BDBranch\TextAdventure-BDBranch\TextAdventure\ConsoleUI\bin\Debug\ConsoleUI.pdb
+C:\Users\Fraleym7700\Downloads\TextAdventure-BDBranch\TextAdventure-BDBranch\TextAdventure\ConsoleUI\bin\Debug\TextAdventureLib.dll
+C:\Users\Fraleym7700\Downloads\TextAdventure-BDBranch\TextAdventure-BDBranch\TextAdventure\ConsoleUI\bin\Debug\TextAdventureLib.pdb
+C:\Users\Fraleym7700\Downloads\TextAdventure-BDBranch\TextAdventure-BDBranch\TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.csproj.CopyComplete
+C:\Users\Brandon\Desktop\TextAdventure\TextAdventure\TextAdventure\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+C:\Users\Brandon\Desktop\TextAdventure\TextAdventure\TextAdventure\ConsoleUI\bin\Debug\ConsoleUI.exe
+C:\Users\Brandon\Desktop\TextAdventure\TextAdventure\TextAdventure\ConsoleUI\bin\Debug\ConsoleUI.pdb
+C:\Users\Brandon\Desktop\TextAdventure\TextAdventure\TextAdventure\ConsoleUI\bin\Debug\TextAdventureLib.dll
+C:\Users\Brandon\Desktop\TextAdventure\TextAdventure\TextAdventure\ConsoleUI\bin\Debug\TextAdventureLib.pdb
+C:\Users\Brandon\Desktop\TextAdventure\TextAdventure\TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
+C:\Users\Brandon\Desktop\TextAdventure\TextAdventure\TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Desktop\TextAdventure\TextAdventure\TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.csproj.CopyComplete
+C:\Users\Brandon\Desktop\TextAdventure\TextAdventure\TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.exe
+C:\Users\Brandon\Desktop\TextAdventure\TextAdventure\TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.pdb
