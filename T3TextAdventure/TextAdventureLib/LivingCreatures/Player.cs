@@ -12,21 +12,24 @@ namespace TextAdventureLib
         private string _password;
         private string _class;
         private string _race;
+        public int Gold { get; set; }
+        public int ExperiencePoints { get; set; }
+        public int Level { get; set; }
+        public Location CurrentLocation { get; set; }
+        public List<InventoryItem> Inventory { get; set; }
+        public List<PlayerQuest> Quests { get; set; }
 
         // Constructor
-        public Player()
+        public Player() : base()
         {
             Name = "No name";
-            Health = 0;
             Password = "No password";
             Class = "No class";
             Race = "No race";
         }
 
-        public Player(string name, int health, string password, string clas, string race)
+        public Player(string name, int health, string password, string clas, string race) : base(name, health)
         {
-            Name = name;
-            Health = health;
             Password = password;
             Class = clas;
             Race = race;

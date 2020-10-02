@@ -11,6 +11,20 @@ namespace TextAdventureLib
         private string _name;
         private int _health;
 
+
+        public LivingCreature()
+        {
+            Name = "";
+            Health = 0;
+
+        }
+        public LivingCreature(string name, int health)
+        {
+            Name = name;
+            Health = health;
+
+        }
+
         public string Name
         {
             get
@@ -22,6 +36,7 @@ namespace TextAdventureLib
                 _name = value;
             }
         }
+
         public int Health
         {
             get
@@ -33,6 +48,7 @@ namespace TextAdventureLib
                 _health = value;
             }
         }
+
 
     }
 }

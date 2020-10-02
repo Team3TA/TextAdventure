@@ -41,10 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InventoryItem.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="LivingCreatures\LivingCreature.cs" />
+    <Compile Include="LivingCreatures\Monster.cs" />
     <Compile Include="LivingCreatures\Player.cs" />
+    <Compile Include="Location.cs" />
+    <Compile Include="LootItem.cs" />
+    <Compile Include="PlayerQuest.cs" />
     <Compile Include="Potion.cs" />
+    <Compile Include="Quest.cs" />
+    <Compile Include="QuestCompletionItem.cs" />
     <Compile Include="Treasure.cs" />
     <Compile Include="Weapon.cs" />
     <Compile Include="Room.cs" />

@@ -9,20 +9,16 @@ namespace TextAdventureLib
     public class Mob : LivingCreature
     {
         // Fields        
-        private int _damage;
 
         // Constructor
-        public Mob()
+        public Mob() : base()
         {
-            Name = "No Name";
-            Health = 0;
+
             Damage = 0;
         }
 
-        public Mob(string name, int health, int damage)
+        public Mob(string name, int health, int damage) : base(name, health)
         {
-            Name = name;
-            Health = health;
             Damage = damage;
         }
 

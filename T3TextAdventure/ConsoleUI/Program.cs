@@ -18,25 +18,25 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
             bool exit = false;
-            
-            List<Player> players = new List<Player>();         
 
-            
+            List<Player> players = new List<Player>();
+
+
             do
             {
                 Console.WriteLine(StandardMessages.Menu());
-                
-                
-                switch(Console.ReadLine())
+
+
+                switch (Console.ReadLine())
                 {
-                    case "1":                    
+                    case "1":
                         BuildPlayer.BuildAPlayer(players);
                         Console.WriteLine("");
-                        break;                    
+                        break;
                     case "2":
                         PlayGame.Game(players);
                         Console.WriteLine("");
-                        break;                    
+                        break;
                     case "3":
                         exit = true;
                         break;
@@ -44,10 +44,10 @@ namespace ConsoleUI
                         Console.WriteLine(StandardMessages.MenuError());
                         Console.WriteLine("");
                         break;
-                }               
+                }
             } while (exit == false);
 
-        }             
-             
+        }
+
     }
 }

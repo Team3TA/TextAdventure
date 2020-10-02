@@ -20,17 +20,17 @@ namespace ConsoleUI
                  { new Room("Stairs", "A set of stairs that seem to go deeper into the dungeon"),new Room("Passageway", "No monsters appear, this seems to connect to another area"),new Room("Plains", "A vast plains has appeared, it is rumored to be home of the Dire Wolfs") },
                  { new Room("Safe zone", "There are no monsters here. There is a well in the middle of the room"),new Room("Passageway", "No monsters appear, this seems to connect to another area"),new Room("Boss Room", "The final room in the dungeon") }
                 };
-            Weapon[] weapons = { new Weapon("Dagger", 100, 5), new Weapon("Long Sword", 100, 15), new Weapon("Scythe", 100, 8), new Weapon("Great Sword", 100, 30) };
+            Weapon[] weapons = { new Weapon("Dagger", "small dagger", 100, 5), new Weapon("Long Sword", "Long Sword about 3ft long", 100, 15), new Weapon("Scythe", "A long blade used for cutting grasss", 100, 8), new Weapon("Great Sword", "Sword with extra power", 100, 30) };
             Potion[] potions = { new Potion("Vitality Potion", "Recovers health"), new Potion("Mind Potion", "Recovers mana") };
-            Treasure[] treasures = { new Treasure("Emerald"), new Treasure("Diamond"), new Treasure("Ruby") };
+            Treasure[] treasures = { new Treasure("Emerald", "Shiny green emarald"), new Treasure("Diamond", null), new Treasure("Ruby", null) };
             List<Item> items = new List<Item>();
             List<Mob> mobs = new List<Mob>();
             String input;
             int positionV = 0, positionH = 0;
-            items.Add(new Item("Key"));
-            items.Add(new Item("Lock Pick"));
-            items.Add(new Item("Whetstone"));
-            items.Add(new Item("Smoke Bomb"));
+            items.Add(new Item("Key", null));
+            items.Add(new Item("Lock Pick", null));
+            items.Add(new Item("Whetstone", null));
+            items.Add(new Item("Smoke Bomb", null));
             mobs.Add(new Mob("Slime", 30, 2));
             mobs.Add(new Mob("Dire Wolf", 50, 5));
             mobs.Add(new Mob("Goblin", 80, 10));
@@ -40,16 +40,16 @@ namespace ConsoleUI
             Console.WriteLine(StandardMessages.GameWelcome());
             do
             {
-                
+
                 input = Console.ReadLine().ToLower();
 
                 switch (input)
                 {
-                    case "go north":                    
+                    case "go north":
                         MoveNorth(ref positionV, ref positionH, rooms);
                         Console.WriteLine("");
-                        break;                    
-                    case "go south":                    
+                        break;
+                    case "go south":
                         MoveSouth(ref positionV, ref positionH, rooms);
                         Console.WriteLine("");
                         break;
@@ -61,8 +61,8 @@ namespace ConsoleUI
                         MoveWest(ref positionV, ref positionH, rooms);
                         Console.WriteLine("");
                         break;
-                    case "attack":                    
-                        Attack(players[0],mobs[2]);
+                    case "attack":
+                        Attack(players[0], mobs[2]);
                         Console.WriteLine("");
                         break;
                     case "exit":
@@ -79,10 +79,10 @@ namespace ConsoleUI
         public static void MoveNorth(ref int positionV, ref int positionH, Room[,] rooms)
         {
             //TODO Fix code to move north
-            if ((positionV == 1 && positionH==2) || (positionV == 2 && positionH == 0) || (positionV == 3 && positionH == 2) || (positionV == 4 && positionH == 0))
+            if ((positionV == 1 && positionH == 2) || (positionV == 2 && positionH == 0) || (positionV == 3 && positionH == 2) || (positionV == 4 && positionH == 0))
             {
-                positionV = positionV-1;
-                Console.WriteLine(StandardMessages.RoomMove() + rooms[positionV,positionH].Name);
+                positionV = positionV - 1;
+                Console.WriteLine(StandardMessages.RoomMove() + rooms[positionV, positionH].Name);
 
             }
             else
@@ -108,7 +108,7 @@ namespace ConsoleUI
         public static void MoveEast(ref int positionV, ref int positionH, Room[,] rooms)
         {
             //TODO Fix code to move east
-            if (positionH != 2 )
+            if (positionH != 2)
             {
                 positionH++;
                 Console.WriteLine(StandardMessages.RoomMove() + rooms[positionV, positionH].Name);
@@ -137,7 +137,7 @@ namespace ConsoleUI
         public static void Attack(Player yourPlayer, Mob monster)
         {
             Random random = new Random();
-            int monsterAttack = random.Next(1, monster.Damage)+1;
+            int monsterAttack = random.Next(1, monster.Damage) + 1;
             int playerAttack = random.Next(1, 21);
             yourPlayer.Health = yourPlayer.Health - monsterAttack;
             monster.Health = monster.Health - playerAttack;
@@ -145,7 +145,7 @@ namespace ConsoleUI
             Console.WriteLine($"You attack a {monster.Name} for {playerAttack} leaving it with {monster.Health} health left." +
                 $"\nThe {monster.Name} attacks you for {monsterAttack} leaving you with {yourPlayer.Health} health left.");
 
-            
+
         }
     }
 }
