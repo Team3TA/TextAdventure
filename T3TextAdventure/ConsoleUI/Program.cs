@@ -1,7 +1,8 @@
 ﻿/**
-* 3/1/20
-* CSC 153
-* Brandon Dalton
+* Start Date - 9/6/20
+* Updated on - 10/11/20
+* CSC-253
+* Team 3
 * Text based adventure, program will simulate a text based adventure
 */
 using System;
@@ -17,9 +18,10 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            bool exit = false;
-
+            bool exit = false,loginSuccess;
             List<Player> players = new List<Player>();
+
+            
 
 
             do
@@ -31,10 +33,16 @@ namespace ConsoleUI
                 {
                     case "1":
                         BuildPlayer.BuildAPlayer(players);
+                        PlayGame.Game(players);
                         Console.WriteLine("");
                         break;
                     case "2":
-                        PlayGame.Game(players);
+                        loginSuccess = ReturningPlayer.LoginPlayer(players);
+                        
+                        if(loginSuccess==true)
+                        {
+                            PlayGame.Game(players);
+                        }                        
                         Console.WriteLine("");
                         break;
                     case "3":

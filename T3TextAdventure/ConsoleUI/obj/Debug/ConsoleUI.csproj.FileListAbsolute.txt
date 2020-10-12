@@ -42,3 +42,13 @@ C:\Users\Brandon\Desktop\TextAdventure\TextAdventure\TextAdventure\ConsoleUI\obj
 C:\Users\Brandon\Desktop\TextAdventure\TextAdventure\TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.csproj.CopyComplete
 C:\Users\Brandon\Desktop\TextAdventure\TextAdventure\TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.exe
 C:\Users\Brandon\Desktop\TextAdventure\TextAdventure\TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.pdb
+G:\GitHub\TextAdventure\T3TextAdventure\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+G:\GitHub\TextAdventure\T3TextAdventure\ConsoleUI\bin\Debug\ConsoleUI.exe
+G:\GitHub\TextAdventure\T3TextAdventure\ConsoleUI\bin\Debug\ConsoleUI.pdb
+G:\GitHub\TextAdventure\T3TextAdventure\ConsoleUI\bin\Debug\TextAdventureLib.dll
+G:\GitHub\TextAdventure\T3TextAdventure\ConsoleUI\bin\Debug\TextAdventureLib.pdb
+G:\GitHub\TextAdventure\T3TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
+G:\GitHub\TextAdventure\T3TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+G:\GitHub\TextAdventure\T3TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.csproj.CopyComplete
+G:\GitHub\TextAdventure\T3TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.exe
+G:\GitHub\TextAdventure\T3TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.pdb

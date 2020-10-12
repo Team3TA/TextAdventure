@@ -19,3 +19,9 @@ C:\Users\Brandon\Desktop\TextAdventure\TextAdventure\TextAdventure\TextAdventure
 C:\Users\Brandon\Desktop\TextAdventure\TextAdventure\TextAdventure\TextAdventureLib\obj\Debug\TextAdventureLib.csproj.CoreCompileInputs.cache
 C:\Users\Brandon\Desktop\TextAdventure\TextAdventure\TextAdventure\TextAdventureLib\obj\Debug\TextAdventureLib.dll
 C:\Users\Brandon\Desktop\TextAdventure\TextAdventure\TextAdventure\TextAdventureLib\obj\Debug\TextAdventureLib.pdb
+G:\GitHub\TextAdventure\T3TextAdventure\TextAdventureLib\bin\Debug\TextAdventureLib.dll
+G:\GitHub\TextAdventure\T3TextAdventure\TextAdventureLib\bin\Debug\TextAdventureLib.pdb
+G:\GitHub\TextAdventure\T3TextAdventure\TextAdventureLib\obj\Debug\TextAdventureLib.csprojAssemblyReference.cache
+G:\GitHub\TextAdventure\T3TextAdventure\TextAdventureLib\obj\Debug\TextAdventureLib.csproj.CoreCompileInputs.cache
+G:\GitHub\TextAdventure\T3TextAdventure\TextAdventureLib\obj\Debug\TextAdventureLib.dll
+G:\GitHub\TextAdventure\T3TextAdventure\TextAdventureLib\obj\Debug\TextAdventureLib.pdb

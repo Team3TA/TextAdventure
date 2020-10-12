@@ -11,8 +11,8 @@ namespace TextAdventureLib
         public static string Menu()
         {
             return "Choose an option:" +
-                    "\n1. Build player" +
-                    "\n2. Play game" +
+                    "\n1. New Player" +
+                    "\n2. Returning Player" +
                     "\n3. Exit" +
                     "\n--> ";
         }
@@ -34,6 +34,24 @@ namespace TextAdventureLib
         public static string GameWelcome()
         {
             return "Welcome to the game!";
+        }
+
+        public static string GetPlayerName()
+        {
+            return "Enter your player name: ";
+        }
+        public static string GetPlayerPassword()
+        {
+            return "Enter your password: ";
+        }
+        public static string DisplayPasswordError()
+        {
+            return "Invalid password";
+        }
+
+        public static string DisplayReturnPlayerError()
+        {
+            return "No player exists under that name.";
         }
     }
 }

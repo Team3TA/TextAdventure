@@ -20,22 +20,14 @@ namespace ConsoleUI
                  { new Room("Stairs", "A set of stairs that seem to go deeper into the dungeon"),new Room("Passageway", "No monsters appear, this seems to connect to another area"),new Room("Plains", "A vast plains has appeared, it is rumored to be home of the Dire Wolfs") },
                  { new Room("Safe zone", "There are no monsters here. There is a well in the middle of the room"),new Room("Passageway", "No monsters appear, this seems to connect to another area"),new Room("Boss Room", "The final room in the dungeon") }
                 };
-            Weapon[] weapons = { new Weapon("Dagger", "small dagger", 100, 5), new Weapon("Long Sword", "Long Sword about 3ft long", 100, 15), new Weapon("Scythe", "A long blade used for cutting grasss", 100, 8), new Weapon("Great Sword", "Sword with extra power", 100, 30) };
-            Potion[] potions = { new Potion("Vitality Potion", "Recovers health"), new Potion("Mind Potion", "Recovers mana") };
-            Treasure[] treasures = { new Treasure("Emerald", "Shiny green emarald"), new Treasure("Diamond", null), new Treasure("Ruby", null) };
-            List<Item> items = new List<Item>();
-            List<Mob> mobs = new List<Mob>();
+            ListBuilder.BuildMonsterList();
+            ListBuilder.BuildItemList();
+            ListBuilder.BuildPotionList();
+            ListBuilder.BuildTreasureList();
+            ListBuilder.BuildWeaponList();
             String input;
             int positionV = 0, positionH = 0;
-            items.Add(new Item("Key", null));
-            items.Add(new Item("Lock Pick", null));
-            items.Add(new Item("Whetstone", null));
-            items.Add(new Item("Smoke Bomb", null));
-            mobs.Add(new Mob("Slime", 30, 2));
-            mobs.Add(new Mob("Dire Wolf", 50, 5));
-            mobs.Add(new Mob("Goblin", 80, 10));
-            mobs.Add(new Mob("Witch", 100, 15));
-            mobs.Add(new Mob("Zombie", 15, 30));
+            
 
             Console.WriteLine(StandardMessages.GameWelcome());
             do
@@ -62,7 +54,7 @@ namespace ConsoleUI
                         Console.WriteLine("");
                         break;
                     case "attack":
-                        Attack(players[0], mobs[2]);
+                        Attack(players[0], World.mobs[2]);
                         Console.WriteLine("");
                         break;
                     case "exit":
