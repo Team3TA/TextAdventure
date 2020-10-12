@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,9 +10,10 @@ namespace ConsoleUI
 {
     public class BuildPlayer
     {
-        public static void BuildAPlayer(List<Player> inputList)
+        public static Player BuildAPlayer()
         {
 
+            
             Player thisPlayer = new Player();
             bool error = false;
             string password;
@@ -31,7 +33,13 @@ namespace ConsoleUI
                 }
                 else
                 {
-                    Console.WriteLine("Error your password did not meet the requirements.");
+                    Console.WriteLine("Error your password did not meet the requirements." +
+                        "\nPassword requirements -" +
+                        "\n1. Must be 8-15 characters long" +
+                        "\n2. Must contain at least one upper case letter" +
+                        "\n3. Must contain at least one lower case letter" +
+                        "\n4. Must contain at least one punctuation mark" +
+                        "\n5. Must contain at least one number");
                     error = true;
                 }
             } while (error == true);
@@ -42,8 +50,13 @@ namespace ConsoleUI
             Console.Write("Choose a race(Human, Halfling, Elf, Kobold) --> ");
             thisPlayer.Race = Console.ReadLine();
             thisPlayer.Health = 100;
+            thisPlayer.Admin = false;
+            
 
-            inputList.Add(thisPlayer);
+            StreamWriter outputfile = File.CreateText($@"../../../TextAdventureLib/Players/{thisPlayer.Name}.csv");
+            outputfile.Write($"{thisPlayer.Name},{thisPlayer.Health},{thisPlayer.Password},{thisPlayer.Class},{thisPlayer.Race},{thisPlayer.Admin}");
+            outputfile.Close();
+            return thisPlayer;
 
         }
         private static int NumberLowerCase(string input)

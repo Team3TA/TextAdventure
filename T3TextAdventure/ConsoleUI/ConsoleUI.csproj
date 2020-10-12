@@ -44,9 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BuildPlayer.cs" />
+    <Compile Include="Create.cs" />
     <Compile Include="PlayGame.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReturningPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

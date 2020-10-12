@@ -1,0 +1,1 @@
+﻿This folder contains the csv files to build the world
