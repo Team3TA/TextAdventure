@@ -9,7 +9,7 @@ namespace ConsoleUI
 {
     class PlayGame
     {
-        public static void Game(List<Player> players)
+        public static void Game(Player thisPlayer)
         {
             bool exit = false;
             Room[,] rooms = new Room[5, 3]
@@ -54,11 +54,50 @@ namespace ConsoleUI
                         Console.WriteLine("");
                         break;
                     case "attack":
-                        Attack(players[0], World.mobs[2]);
+                        Attack(thisPlayer, World.mobs[2]);
                         Console.WriteLine("");
                         break;
                     case "exit":
                         exit = true;
+                        break;
+                    case "create":
+                        if(thisPlayer.Admin==true)
+                        {
+                            Console.Write(StandardMessages.GetCreateObject());
+                            switch(Console.ReadLine())
+                            {
+                                case "1":
+                                    //item
+                                    Create.CreateItem();
+                                    break;
+                                case "2":
+                                    //mob
+                                    Create.CreateMob();                                    
+                                    break;
+                                case "3":
+                                    //treasuer
+                                    Create.CreateTreasure();                                    
+                                    break;
+                                case "4":
+                                    //potion
+                                    Create.CreatePotion();                                    
+                                    break;
+                                case "5":
+                                    //weapon
+                                    Create.CreateWeapon();                                    
+                                    break;
+                                case "6":
+                                    //Returns to the game
+                                    break;
+                                default:
+                                    Console.WriteLine(StandardMessages.DisplayCreateError());
+                                    break;
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine(StandardMessages.DisplayNotAdminErroer());
+                        }
                         break;
                     default:
                         Console.WriteLine(StandardMessages.GameError());

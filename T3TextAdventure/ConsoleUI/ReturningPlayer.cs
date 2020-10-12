@@ -36,6 +36,7 @@ namespace ConsoleUI
                         thisPlayer.Password = tokens[2];
                         thisPlayer.Class = tokens[3];
                         thisPlayer.Race = tokens[4];
+                        thisPlayer.Admin = bool.Parse(tokens[5]);
                         inputList.Add(thisPlayer);
                         inputfile.Close();
                     return true;

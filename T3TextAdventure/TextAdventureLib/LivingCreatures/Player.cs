@@ -12,6 +12,7 @@ namespace TextAdventureLib
         private string _password;
         private string _class;
         private string _race;
+        private bool _admin;
         public int Gold { get; set; }
         public int ExperiencePoints { get; set; }
         public int Level { get; set; }
@@ -26,13 +27,15 @@ namespace TextAdventureLib
             Password = "No password";
             Class = "No class";
             Race = "No race";
+            Admin = false;
         }
 
-        public Player(string name, int health, string password, string clas, string race) : base(name, health)
+        public Player(string name, int health, string password, string clas, string race, bool admin) : base(name, health)
         {
             Password = password;
             Class = clas;
             Race = race;
+            Admin = admin;
         }
 
         // Property      
@@ -72,5 +75,7 @@ namespace TextAdventureLib
                 _race = value;
             }
         }
+
+        public bool Admin { get; set; }
     }
 }

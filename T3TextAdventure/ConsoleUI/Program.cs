@@ -19,7 +19,7 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
             bool exit = false,loginSuccess;
-            List<Player> players = new List<Player>();
+            Player thisPlayer = new Player();
 
             
 
@@ -32,16 +32,18 @@ namespace ConsoleUI
                 switch (Console.ReadLine())
                 {
                     case "1":
-                        BuildPlayer.BuildAPlayer(players);
-                        PlayGame.Game(players);
+                        thisPlayer=BuildPlayer.BuildAPlayer();
+                        PlayGame.Game(thisPlayer);
                         Console.WriteLine("");
                         break;
                     case "2":
+                        List<Player> players = new List<Player>();
                         loginSuccess = ReturningPlayer.LoginPlayer(players);
                         
                         if(loginSuccess==true)
                         {
-                            PlayGame.Game(players);
+                            thisPlayer = players[0];
+                            PlayGame.Game(thisPlayer);
                         }                        
                         Console.WriteLine("");
                         break;

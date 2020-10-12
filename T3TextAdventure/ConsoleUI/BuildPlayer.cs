@@ -10,7 +10,7 @@ namespace ConsoleUI
 {
     public class BuildPlayer
     {
-        public static void BuildAPlayer(List<Player> inputList)
+        public static Player BuildAPlayer()
         {
 
             
@@ -50,12 +50,13 @@ namespace ConsoleUI
             Console.Write("Choose a race(Human, Halfling, Elf, Kobold) --> ");
             thisPlayer.Race = Console.ReadLine();
             thisPlayer.Health = 100;
-            inputList.Add(thisPlayer);
+            thisPlayer.Admin = false;
+            
 
             StreamWriter outputfile = File.CreateText($@"../../../TextAdventureLib/Players/{thisPlayer.Name}.csv");
-            outputfile.Write($"{thisPlayer.Name},{thisPlayer.Health},{thisPlayer.Password},{thisPlayer.Class},{thisPlayer.Race}");
+            outputfile.Write($"{thisPlayer.Name},{thisPlayer.Health},{thisPlayer.Password},{thisPlayer.Class},{thisPlayer.Race},{thisPlayer.Admin}");
             outputfile.Close();
-            
+            return thisPlayer;
 
         }
         private static int NumberLowerCase(string input)

@@ -53,5 +53,31 @@ namespace TextAdventureLib
         {
             return "No player exists under that name.";
         }
+
+        public static string DisplayNotAdminErroer()
+        {
+            return "Error! This account doesn't have admin capabilities.";
+        }
+        public static string GetCreateObject()
+        {
+            return "Hello again admin, what would you like to create?" +
+                "\n1. Item" +
+                "\n2. Mob" +
+                "\n3. Treasure" +
+                "\n4. Potion" +
+                "\n5. Weapon" +
+                "\n6. Cancel" +
+                "\n--> ";
+        }
+        public static string DisplayCreateError()
+        {
+            return "Invalid create option.";
+        }
+        public static string DisplayCreaterNumberError()
+        {
+            return "Invalid input. Enter a number greater than 0";
+        }
+
+        
     }
 }
