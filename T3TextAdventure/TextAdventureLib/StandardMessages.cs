@@ -25,7 +25,7 @@ namespace TextAdventureLib
             return "Invalid input! Please type \"go (cardinal direction)\" to move or attack to attack a mob." +
                 "\nYou can type exit to get back to the main menu.";
         }
-        
+
         public static string RoomMove()
         {
             return "You have moved to room: ";

@@ -9,17 +9,21 @@ namespace TextAdventureLib
     public class Item
     {
         // Fields
+        public int ID { get; set; }
         private string _name;
+        private string _description;
 
         // Constructor
         public Item()
         {
             Name = "";
+            Description = "";
         }
 
-        public Item(string name)
+        public Item(string name, string description)
         {
             Name = name;
+            Description = description;
         }
 
         // Full Property
@@ -36,6 +40,16 @@ namespace TextAdventureLib
             }
         }
 
-
+        public string Description
+        {
+            get
+            {
+                return Description;
+            }
+            set
+            {
+                _description = value;
+            }
+        }
     }
 }

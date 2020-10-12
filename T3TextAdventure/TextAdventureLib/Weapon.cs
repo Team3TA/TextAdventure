@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace TextAdventureLib
 {
-    public class Weapon
+    public class Weapon : Item
     {
         // Fields
-        private string _name;
+
         private int _durability;
         private int _damage;
 
@@ -17,30 +17,17 @@ namespace TextAdventureLib
         public Weapon()
         {
             Name = "No name";
-            Durability = 00;
+            Durability = 100;
             Damage = 0;
         }
 
-        public Weapon(string name, int durablitly, int damage)
+        public Weapon(string name, string description, int durablitly, int damage) : base(name, description)
         {
-            Name = name;
             Durability = durablitly;
             Damage = damage;
         }
 
         // Full Property
-
-        public string Name
-        {
-            get
-            {
-                return _name;
-            }
-            set
-            {
-                _name = value;
-            }
-        }
         public int Durability
         {
             get

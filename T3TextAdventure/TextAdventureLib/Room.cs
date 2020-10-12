@@ -11,7 +11,7 @@ namespace TextAdventureLib
         // Fields
         private string _name;
         private string _description;
-        
+
 
         // Constructor
         public Room()
@@ -23,7 +23,7 @@ namespace TextAdventureLib
         public Room(string name, string description)
         {
             Name = name;
-            Description = description;            
+            Description = description;
         }
 
         // Full Property

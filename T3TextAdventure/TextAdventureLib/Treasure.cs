@@ -6,33 +6,18 @@ using System.Threading.Tasks;
 
 namespace TextAdventureLib
 {
-    public class Treasure
+    public class Treasure : Item
     {
         // Fields
-        private string _name;
 
         // Constructor
-        public Treasure()
+        public Treasure() : base()
         {
-            Name = "No name";
-        }
 
-        public Treasure(string name)
-        {
-            Name = name;
         }
-
-        // Property
-        public string Name
+        public Treasure(string name, string description) : base(name, description)
         {
-            get
-            {
-                return _name;
-            }
-            set
-            {
-                _name = value;
-            }
+
         }
 
 
