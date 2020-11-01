@@ -1,0 +1,7 @@
+C:\Users\Frale\OneDrive\Documents\GitHub\TextAdventure\T3TextAdventure\Engine\obj\Debug\Engine.csprojAssemblyReference.cache
+C:\Users\Frale\OneDrive\Documents\GitHub\TextAdventure\T3TextAdventure\Engine\obj\Debug\Engine.csproj.CoreCompileInputs.cache
+C:\Users\Frale\OneDrive\Documents\GitHub\TextAdventure\T3TextAdventure\Engine\bin\Debug\Engine.dll
+C:\Users\Frale\OneDrive\Documents\GitHub\TextAdventure\T3TextAdventure\Engine\bin\Debug\Engine.pdb
+C:\Users\Frale\OneDrive\Documents\GitHub\TextAdventure\T3TextAdventure\Engine\obj\Debug\Engine.dll
+C:\Users\Frale\OneDrive\Documents\GitHub\TextAdventure\T3TextAdventure\Engine\obj\Debug\Engine.pdb
+C:\Users\Frale\OneDrive\Documents\GitHub\TextAdventure\T3TextAdventure\Engine\obj\Debug\Engine.g.resources
