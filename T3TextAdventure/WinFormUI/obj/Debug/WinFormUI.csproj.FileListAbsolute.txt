@@ -1,0 +1,13 @@
+G:\GitHub\TextAdventure\T3TextAdventure\WinFormUI\bin\Debug\WinFormUI.exe.config
+G:\GitHub\TextAdventure\T3TextAdventure\WinFormUI\bin\Debug\WinFormUI.exe
+G:\GitHub\TextAdventure\T3TextAdventure\WinFormUI\bin\Debug\WinFormUI.pdb
+G:\GitHub\TextAdventure\T3TextAdventure\WinFormUI\bin\Debug\Engine.dll
+G:\GitHub\TextAdventure\T3TextAdventure\WinFormUI\bin\Debug\Engine.pdb
+G:\GitHub\TextAdventure\T3TextAdventure\WinFormUI\obj\Debug\WinFormUI.csprojAssemblyReference.cache
+G:\GitHub\TextAdventure\T3TextAdventure\WinFormUI\obj\Debug\WinFormUI.Form1.resources
+G:\GitHub\TextAdventure\T3TextAdventure\WinFormUI\obj\Debug\WinFormUI.Properties.Resources.resources
+G:\GitHub\TextAdventure\T3TextAdventure\WinFormUI\obj\Debug\WinFormUI.csproj.GenerateResource.cache
+G:\GitHub\TextAdventure\T3TextAdventure\WinFormUI\obj\Debug\WinFormUI.csproj.CoreCompileInputs.cache
+G:\GitHub\TextAdventure\T3TextAdventure\WinFormUI\obj\Debug\WinFormUI.csproj.CopyComplete
+G:\GitHub\TextAdventure\T3TextAdventure\WinFormUI\obj\Debug\WinFormUI.exe
+G:\GitHub\TextAdventure\T3TextAdventure\WinFormUI\obj\Debug\WinFormUI.pdb

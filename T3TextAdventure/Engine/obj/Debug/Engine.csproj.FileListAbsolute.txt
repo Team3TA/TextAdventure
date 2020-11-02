@@ -5,3 +5,10 @@ C:\Users\Frale\OneDrive\Documents\GitHub\TextAdventure\T3TextAdventure\Engine\bi
 C:\Users\Frale\OneDrive\Documents\GitHub\TextAdventure\T3TextAdventure\Engine\obj\Debug\Engine.dll
 C:\Users\Frale\OneDrive\Documents\GitHub\TextAdventure\T3TextAdventure\Engine\obj\Debug\Engine.pdb
 C:\Users\Frale\OneDrive\Documents\GitHub\TextAdventure\T3TextAdventure\Engine\obj\Debug\Engine.g.resources
+G:\GitHub\TextAdventure\T3TextAdventure\Engine\bin\Debug\Engine.dll
+G:\GitHub\TextAdventure\T3TextAdventure\Engine\bin\Debug\Engine.pdb
+G:\GitHub\TextAdventure\T3TextAdventure\Engine\obj\Debug\Engine.csprojAssemblyReference.cache
+G:\GitHub\TextAdventure\T3TextAdventure\Engine\obj\Debug\Engine.g.resources
+G:\GitHub\TextAdventure\T3TextAdventure\Engine\obj\Debug\Engine.csproj.CoreCompileInputs.cache
+G:\GitHub\TextAdventure\T3TextAdventure\Engine\obj\Debug\Engine.dll
+G:\GitHub\TextAdventure\T3TextAdventure\Engine\obj\Debug\Engine.pdb
