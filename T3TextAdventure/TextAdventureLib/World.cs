@@ -8,10 +8,10 @@ namespace TextAdventureLib
 {
     public static class World
     {
-        public static readonly List<Weapon> weapons = new List<Weapon>();
-        public static readonly List<Potion> potions = new List<Potion>();
-        public static readonly List<Treasure> treasures = new List<Treasure>();
-        public static readonly List<Item> items = new List<Item>();
-        public static readonly List<Mob> mobs = new List<Mob>();
+        public static  List<Weapon> weapons = new List<Weapon>();
+        public static  List<Potion> potions = new List<Potion>();
+        public static  List<Treasure> treasures = new List<Treasure>();
+        public static  List<Item> items = new List<Item>();
+        public static  List<Mob> mobs = new List<Mob>();
     }
 }

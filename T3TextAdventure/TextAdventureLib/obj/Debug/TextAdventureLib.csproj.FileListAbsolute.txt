@@ -25,3 +25,9 @@ G:\GitHub\TextAdventure\T3TextAdventure\TextAdventureLib\obj\Debug\TextAdventure
 G:\GitHub\TextAdventure\T3TextAdventure\TextAdventureLib\obj\Debug\TextAdventureLib.csproj.CoreCompileInputs.cache
 G:\GitHub\TextAdventure\T3TextAdventure\TextAdventureLib\obj\Debug\TextAdventureLib.dll
 G:\GitHub\TextAdventure\T3TextAdventure\TextAdventureLib\obj\Debug\TextAdventureLib.pdb
+G:\GitHub\TextAdventure\T3TextAdventure\TextAdventureLib\bin\Debug\WorldDB.mdf
+G:\GitHub\TextAdventure\T3TextAdventure\TextAdventureLib\bin\Debug\WorldDB_log.ldf
+G:\GitHub\TextAdventure\T3TextAdventure\TextAdventureLib\bin\Debug\TextAdventureLib.dll.config
+G:\GitHub\TextAdventure\T3TextAdventure\TextAdventureLib\bin\Debug\Dapper.dll
+G:\GitHub\TextAdventure\T3TextAdventure\TextAdventureLib\bin\Debug\Dapper.xml
+G:\GitHub\TextAdventure\T3TextAdventure\TextAdventureLib\obj\Debug\TextAdventureLib.csproj.CopyComplete

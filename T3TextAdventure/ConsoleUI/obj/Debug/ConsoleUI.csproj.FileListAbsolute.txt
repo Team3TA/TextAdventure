@@ -52,3 +52,8 @@ G:\GitHub\TextAdventure\T3TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.csproj.Cor
 G:\GitHub\TextAdventure\T3TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.csproj.CopyComplete
 G:\GitHub\TextAdventure\T3TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.exe
 G:\GitHub\TextAdventure\T3TextAdventure\ConsoleUI\obj\Debug\ConsoleUI.pdb
+G:\GitHub\TextAdventure\T3TextAdventure\ConsoleUI\bin\Debug\WorldDB.mdf
+G:\GitHub\TextAdventure\T3TextAdventure\ConsoleUI\bin\Debug\WorldDB_log.ldf
+G:\GitHub\TextAdventure\T3TextAdventure\ConsoleUI\bin\Debug\Dapper.dll
+G:\GitHub\TextAdventure\T3TextAdventure\ConsoleUI\bin\Debug\TextAdventureLib.dll.config
+G:\GitHub\TextAdventure\T3TextAdventure\ConsoleUI\bin\Debug\Dapper.xml
